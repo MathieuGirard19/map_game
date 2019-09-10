@@ -1,0 +1,66 @@
+body
+{
+  background-color: #1f2a52;
+}
+
+.score{
+  position: absolute;
+  margin-left: 5%;
+  color: #bdc0c9;
+  font-size: 1.25vw;
+}
+
+path
+{
+  fill: #55b562;
+  fill-opacity: 1;
+  stroke:black;
+  stroke-opacity: 1;
+  stroke-width:0.5;
+}
+
+.selectable_land:hover{
+  fill: yellow;
+  cursor: pointer;
+}
+
+.btn_group .btn_choice
+{
+  background-color: #6ecf6d;
+}
+
+.btn_group .btn_correct
+{
+  background-color: green;
+  cursor: default;
+}
+
+.correct_land
+{
+  fill: green;
+  cursor: default;
+}
+
+.btn_group {
+  width: 90%;
+  margin: auto;
+}
+
+.btn_group button {
+  background-color: #333b34;
+  border: 1px solid green;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  float: left;
+  width: 200px;
+  font-size: 20px;
+}
+
+.btn_group button:not(:last-child) {
+  border-right: none;
+}
+
+.selectable_btn:hover {
+  background-color: #6ecf6d;
+}
